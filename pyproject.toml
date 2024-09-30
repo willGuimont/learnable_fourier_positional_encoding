@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "learnable_fourier_positional_encoding"
+version = "0.0.1"
+authors = [
+    { name = "William Guimont-Martin", email = "william.guimont-martin@norlab.ulaval.ca" },
+]
+description = "Learnable Fourier Features for Multi-Dimensional Spatial Positional Encoding "
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = ["numpy", "torch"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/willGuimont/learnable_fourier_positional_encoding"
+Issues = "https://github.com/willGuimont/learnable_fourier_positional_encoding/issues"
